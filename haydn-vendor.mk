@@ -358,27 +358,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/haydn/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin
 
 PRODUCT_PACKAGES += \
-    libcamxexternalformatutils \
-    libcamxfacialfeatures \
-    libcamxfdalgo \
-    libcamxfdengine \
-    libcamxifestriping \
-    libcamximageformatutils \
-    libcamxqsatalgo \
-    libcamxstatscore \
-    libcamxswispiqmodule \
-    libcamxswprocessalgo \
-    libcamxtintlessalgo \
-    libjpege \
-    libmctfengine_stub \
-    libmmcamera_bestats \
-    libmmcamera_cac3 \
-    libmmcamera_faceproc \
-    libmmcamera_faceproc2 \
-    libmmcamera_lscv35 \
-    libmmcamera_mfnr \
-    libmmcamera_mfnr_t4 \
-    libmmcamera_pdpc \
     audio.primary.lahaina \
     liba2dpoffload \
     libacdb-fts \
@@ -584,6 +563,17 @@ PRODUCT_PACKAGES += \
     libcamera_nn_stub \
     libcamera_scene \
     libcamerapostproc \
+    libcamxexternalformatutils \
+    libcamxfacialfeatures \
+    libcamxfdalgo \
+    libcamxfdengine \
+    libcamxifestriping \
+    libcamximageformatutils \
+    libcamxqsatalgo \
+    libcamxstatscore \
+    libcamxswispiqmodule \
+    libcamxswprocessalgo \
+    libcamxtintlessalgo \
     libcapiv2svacnn \
     libcapiv2svarnn \
     libcapiv2vop \
@@ -602,6 +592,8 @@ PRODUCT_PACKAGES += \
     libhdrdynamicootf \
     libhexagon_controller \
     libipebpsstriping \
+    libjpege \
+    libmctfengine_stub \
     libmiai_deblur \
     libmiai_portraitsupernight \
     libmialgo_ai_vision \
@@ -623,6 +615,14 @@ PRODUCT_PACKAGES += \
     libmibokeh_mask_dsp \
     libmiphone_preview_bokeh \
     libmm-color-convertor \
+    libmmcamera_bestats \
+    libmmcamera_cac3 \
+    libmmcamera_faceproc \
+    libmmcamera_faceproc2 \
+    libmmcamera_lscv35 \
+    libmmcamera_mfnr \
+    libmmcamera_mfnr_t4 \
+    libmmcamera_pdpc \
     libmpbase \
     libnanopb \
     libnotifyaudiohal \
