@@ -389,6 +389,7 @@ PRODUCT_PACKAGES += \
     libaudcal \
     libaudio_log_utils \
     libaudiocloudctrl \
+    libaudioparsers \
     libaudioroute_ext \
     libbatterylistener \
     libfcsam \
